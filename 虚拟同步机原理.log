@@ -1,0 +1,457 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.27)  7 APR 2017 22:42
+entering extended mode
+**虚拟同步机原理.tex
+(F:\LatexStor\daily\虚拟同步机原理\虚拟同步机原理.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(G:\Ctex\CTeX\tex\latex\cct\cctart.cls
+Document Class: cctart 2004/10/14 Derived from the `article' class
+(G:\Ctex\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(G:\Ctex\MiKTeX\tex\latex\base\size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(G:\Ctex\CTeX\tex\latex\cct\cctbase.sty
+Package: cctbase 2006/05/17
+ (G:\Ctex\CTeX\tex\latex\cct\CCT.sty
+0.61803 [2009/11/20] (G:\Ctex\CTeX\tex\latex\cct\cchead.sty
+\!ZihaoNo=\count87
+\ccwd=\dimen103
+\ccht=\dimen104
+\ccdp=\dimen105
+\!ccbox=\box26
+\!ccbdskip=\skip43
+)
+Package: CCT 2009/11/20 0.61803
+\@CCTcnta=\count88
+\@CCTcntb=\count89
+\@CCTlastkern=\count90
+\@CCTglue=\skip44
+\@CCTtoks=\toks14
+
+(G:\Ctex\CTeX\tex\latex\cct\CCT.cfg) (G:\Ctex\CTeX\tex\latex\cct\GBKkern.cfg)
+(G:\Ctex\CTeX\tex\latex\CJK\GB\c19song.fd) (\ziti{A}->gbksong)
+\@CCTskip=\skip45
+)))
+(G:\Ctex\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(G:\Ctex\MiKTeX\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(G:\Ctex\MiKTeX\tex\latex\paralist\paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip46
+\plpartopsep=\skip47
+\plitemsep=\skip48
+\plparsep=\skip49
+\pl@lab=\toks15
+)
+(G:\Ctex\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz) (G:\Ctex\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\FV@CodeLineNo=\count91
+\FV@InFile=\read1
+\FV@TabBox=\box27
+\c@FancyVerbLine=\count92
+\FV@StepNumber=\count93
+\FV@OutFile=\write3
+)
+(G:\Ctex\MiKTeX\tex\latex\fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box28
+\shadowsize=\dimen106
+\@Sbox=\box29
+\do@VerbBox=\toks17
+\the@fancyput=\toks18
+\this@fancyput=\toks19
+\EndVerbatimTokens=\toks20
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read2
+) (G:\Ctex\MiKTeX\tex\latex\preprint\balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen107
+)
+(G:\Ctex\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(G:\Ctex\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(G:\Ctex\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen108
+))
+(G:\Ctex\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(G:\Ctex\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks22
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks23
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(G:\Ctex\MiKTeX\tex\latex\cases\cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+(G:\Ctex\MiKTeX\tex\latex\psnfss\pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(G:\Ctex\MiKTeX\tex\latex\psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(G:\Ctex\MiKTeX\tex\latex\psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(G:\Ctex\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(G:\Ctex\MiKTeX\tex\latex\slashbox\slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box32
+\@slashboxb=\box33
+\@slashboxc=\box34
+\@slashboxwd=\count106
+\@slashboxht=\count107
+\@slashsepl=\dimen117
+\@slashsepr=\dimen118
+) (G:\Ctex\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(G:\Ctex\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(G:\Ctex\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (G:\Ctex\MiKTeX\tex\latex\ae\ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(G:\Ctex\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(G:\Ctex\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+ (G:\Ctex\MiKTeX\tex\latex\ae\t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))) (G:\Ctex\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip53
+\f@ncyO@elh=\skip54
+\f@ncyO@erh=\skip55
+\f@ncyO@olh=\skip56
+\f@ncyO@orh=\skip57
+\f@ncyO@elf=\skip58
+\f@ncyO@erf=\skip59
+\f@ncyO@olf=\skip60
+\f@ncyO@orf=\skip61
+)
+(G:\Ctex\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(G:\Ctex\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(G:\Ctex\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(G:\Ctex\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(G:\Ctex\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+(G:\Ctex\MiKTeX\tex\latex\picins\picins.sty
+Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box35
+\@TEXT=\box36
+\d@breite=\dimen119
+\d@hoehe=\dimen120
+\d@xoff=\dimen121
+\d@yoff=\dimen122
+\d@shad=\dimen123
+\d@dash=\dimen124
+\d@boxl=\dimen125
+\d@pichskip=\dimen126
+\d@tmp=\dimen127
+\d@tmpa=\dimen128
+\d@bskip=\dimen129
+\hsiz@=\dimen130
+\p@getot@l=\dimen131
+\c@breite=\count109
+\c@hoehe=\count110
+\c@xoff=\count111
+\c@yoff=\count112
+\c@pos=\count113
+\c@shad=\count114
+\c@dash=\count115
+\c@boxl=\count116
+\c@zeilen=\count117
+\@changemode=\count118
+\c@piccaption=\count119
+\c@piccaptionpos=\count120
+\c@picpos=\count121
+\c@whole=\count122
+\c@half=\count123
+\c@tmp=\count124
+\c@tmpa=\count125
+\c@tmpb=\count126
+\c@tmpc=\count127
+\c@tmpd=\count128
+\d@leftskip=\skip62
+\ptoti=\dimen132
+\ptotii=\dimen133
+\env@box=\box37
+\d@envdp=\dimen134
+\c@hsize=\count129
+\c@envdp=\count130
+\d@envb=\dimen135
+)
+(G:\Ctex\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen136
+\WF@size=\dimen137
+\c@WF@wrappedlines=\count131
+\WF@box=\box38
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+)
+(G:\Ctex\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\Ctex\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\Ctex\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(G:\Ctex\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+(G:\Ctex\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(G:\Ctex\MiKTeX\tex\latex\ams\classes\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks32
+)
+(G:\Ctex\MiKTeX\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen140
+\epsfysize=\dimen141
+)
+(G:\Ctex\MiKTeX\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count132
+\LTcapwidth=\dimen142
+\LT@head=\box39
+\LT@firsthead=\box40
+\LT@foot=\box41
+\LT@lastfoot=\box42
+\LT@cols=\count133
+\LT@rows=\count134
+\c@LT@tables=\count135
+\c@LT@chunks=\count136
+\LT@p@ftn=\toks33
+)
+(G:\Ctex\MiKTeX\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip70
+\subfigcapskip=\skip71
+\subfigcaptopadj=\dimen143
+\subfigbottomskip=\skip72
+\subfigcapmargin=\dimen144
+\subfiglabelskip=\skip73
+\c@subfigure=\count137
+\c@lofdepth=\count138
+\c@subtable=\count139
+\c@lotdepth=\count140
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(G:\Ctex\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip74
+\subfig@bottom=\skip75
+)
+(G:\Ctex\MiKTeX\tex\latex\bbding\bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+
+LaTeX Warning: Unused global option(s):
+    [twosides].
+
+(F:\LatexStor\daily\虚拟同步机原理\虚拟同步机原理.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+
+(G:\Ctex\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count141
+\scratchdimen=\dimen145
+\scratchbox=\box43
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen146
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks35
+) (G:\Ctex\CTeX\tex\latex\CJK\GB\c19hei.fd) (\ziti{B}->gbkhei)
+Warning: font `bs' not found, trying alternative font `hei'
+(\ziti{E}->gbkhei)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
+ (G:\Ctex\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+
+(G:\Ctex\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+
+(G:\Ctex\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+<structure.jpg, id=1, 464.4853pt x 424.58624pt>
+File: structure.jpg Graphic file (type jpg)
+ <use structure.jpg>
+Package pdftex.def Info: structure.jpg used on input line 89.
+(pdftex.def)             Requested size: 234.73523pt x 214.57307pt.
+ [1
+
+{G:/Ctex/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2 <F:/Late
+xStor/daily/虚拟同步机原理/structure.jpg>]
+Overfull \hbox (43.07626pt too wide) in paragraph at lines 187--187
+[] 
+ []
+
+[3] (F:\LatexStor\daily\虚拟同步机原理\虚拟同步机原理.aux) ) 
+Here is how much of TeX's memory you used:
+ 4386 strings out of 495354
+ 54273 string characters out of 3183859
+ 124108 words of memory out of 3000000
+ 7405 multiletter control sequences out of 15000+200000
+ 28336 words of font info for 82 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 29i,21n,43p,465b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+<G:/C
+tex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/Ctex/CTeX/fonts/truetype/chinese
+/simsun.ttf><G:/Ctex/CTeX/fonts/truetype/chinese/simsun.ttf><G:/Ctex/CTeX/fonts
+/truetype/chinese/simsun.ttf><G:/Ctex/CTeX/fonts/truetype/chinese/simsun.ttf><G
+:/Ctex/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/
+WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.
+ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts
+/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><G:/Ctex/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbsy10.pfb><G:/Ctex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<G:/Ctex/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Ctex/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><G:/Ctex/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><G:/Ctex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/Cte
+x/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><G:/Ctex/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb>
+Output written on 虚拟同步机原理.pdf (3 pages, 161749 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

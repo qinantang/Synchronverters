@@ -1,0 +1,157 @@
+\documentclass[a4paper,twosides,CJK,12pt]{cctart}
+\usepackage{indentfirst}            %首行缩进
+\usepackage{setspace}               %正文行距宏包
+\usepackage{paralist}               %压缩列表及行间列表宏包
+\usepackage{fancyvrb}               %原文打印修饰
+\usepackage{fancybox}               %盒子修饰
+\usepackage{balance}                %分栏左右两栏均衡
+\usepackage{CCT}                    %latex中文解决方案
+
+
+\setlength{\parindent}{2em}        %首行缩进距离  未起作用????????
+\addtolength{\parskip}{3pt}        %段落之间的距离
+\setstretch{1.2}                   %正文行距均为1.2倍行距 在这里全部变成了1.2倍行距是不是命令行放置的问题？？？？？？？
+
+\renewcommand{\thefootnote}{\arabic{footnote}}    %脚注样式 \arabic阿拉伯数字 \alph 小写英文字母 \roman 小写罗马数字 \Roman 大写罗马数字
+\newcommand{\ud}{\mathrm{d}}                      %微分符号
+
+
+
+
+\usepackage{amsmath}
+\usepackage{cases}
+\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
+\evensidemargin 0pt \textheight 225mm \textwidth 165mm
+\usepackage{pifont}
+\usepackage{mathrsfs}
+\usepackage{slashbox}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage{fancyhdr}
+
+\usepackage{color}
+\usepackage{picins}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\usepackage{epsfig,longtable}
+\usepackage[tight,hang]{subfigure}
+\usepackage{graphics}
+\usepackage{bbding}
+
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+
+\title{模板虚拟同步机原理}
+\author{王柯}
+%\date{}                       %去除maketitle的自动时间标志
+
+
+\begin{document}
+
+%\twocolumn                  %页面分栏
+%\setlength\columnsep{20pt}
+%\balance                    %左右两栏页面均衡
+
+
+\maketitle
+\begin{spacing}{1.5}        %1.5倍行间距
+
+
+%\begin{center}             %题目单独写
+%\textbf{\sanhao 题目}
+%\end{center}
+
+%\newpage                     %翻页
+
+\begin{abstract}
+摘要
+\end{abstract}
+\textbf{【关键词】:}
+
+
+
+
+\section{Modeling Synchronous Machines(by Qing-chang Zhong)}
+We consider a round rotor machine so that all stator inductance are constant. Our model assumes that there are no damper winding in the rotor, that there is one pair of poles per phase (and one pair of poles on the rotor), and that there are no magnetic-saturation effects in the iron core and eddy currents.As is well known, the damper winding help to suppress hunting and also help to bring the machine into synchronism with the grid.
+
+.The stator windings can be regarded as concentrated coils
+having self-inductance L and mutual inductance ?M (M>0 with a typical value 1/2L)The field (or rotor) winding can be regarded as a concentrated coil having self-inductance $L_f$ . The mutual inductance between the field coil and each of the three stator coils varies with the rotor angle $\theta$,
+统一编号
+\begin{equation}
+  \begin{split}
+    L\frac{\ud i_L}{\ud t}&=v_i   \\
+    C\frac{\ud u_c}{\ud t}&=-\frac{u_c}{R}   \\
+    v_o&=u_c
+  \end{split}
+\end{equation}
+单独编号
+\begin{align}
+I_D&=I_0(exp\frac{qU_d}{AkT}-1)  \\
+I_L&=I_{ph}-I_D-\frac{U_D}{R_{sh}}  \\
+&=I_{ph}-I_0[exp\frac{q(U_{oc}+I_LR_s)}{AkT}-1]-\frac{U_D}{R_{sh}} \\
+I_{sc}&=I_0(exp\frac{qU_{oc}}{AkT}-1)   \\
+U_{oc}&=\frac{AkT}{q}\ln(\frac{I_{sc}}{I_0}+1)
+\end{align}
+
+行间公式
+$\displaystyle I_0$
+
+矩阵
+\begin{equation}
+\left[
+\begin{matrix}
+\dot{i_L}\\
+\dot{u_c}\\
+\end{matrix}
+\right]=
+\left[\begin{matrix}
+0&0\\
+0& -\frac{1}{RC}  \\
+\end{matrix}\right]v_i
+\end{equation}
+
+
+
+
+
+\section{表格}
+如表\ref{T1}所示
+\begin{table}[!htp]
+  \centering
+  \caption{表格}\label{T1}
+  \begin{tabular}{l|c}
+    \hline
+    参数 & $v_0$  \\
+    \hline
+    原值 & 0m/s   \\
+    \hline
+  \end{tabular}  \
+\end{table}
+
+
+\section{参考文献}
+
+\begin{thebibliography}{90}
+{
+\bibitem{} 张洪华①②, 梁俊①, 黄翔宇①②*, 赵宇①, 王立①②, 关轶峰①②, 程铭①, 李骥①②,
+王鹏基①②, 于洁①, 袁利①, 嫦娥三号自主避障软着陆控制技术,{\it 中国科学: 技术科学}  ({\bf2014 年第 44 卷第 6 期: 559 ~ 568})
+}
+\end{thebibliography}
+
+
+
+\section{附录}
+代码
+\begin{verbatim}
+    C程序
+\end{verbatim}
+
+
+
+\end{spacing}
+\end{document}

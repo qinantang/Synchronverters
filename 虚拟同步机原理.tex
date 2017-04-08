@@ -1,0 +1,202 @@
+\documentclass[a4paper,twosides,CJK,12pt]{cctart}
+\usepackage{indentfirst}            %首行缩进
+\usepackage{setspace}               %正文行距宏包
+\usepackage{paralist}               %压缩列表及行间列表宏包
+\usepackage{fancyvrb}               %原文打印修饰
+\usepackage{fancybox}               %盒子修饰
+\usepackage{balance}                %分栏左右两栏均衡
+\usepackage{CCT}                    %latex中文解决方案
+
+
+\setlength{\parindent}{2em}        %首行缩进距离  未起作用????????
+\addtolength{\parskip}{3pt}        %段落之间的距离
+\setstretch{1.2}                   %正文行距均为1.2倍行距 在这里全部变成了1.2倍行距是不是命令行放置的问题？？？？？？？
+
+\renewcommand{\thefootnote}{\arabic{footnote}}    %脚注样式 \arabic阿拉伯数字 \alph 小写英文字母 \roman 小写罗马数字 \Roman 大写罗马数字
+\newcommand{\ud}{\mathrm{d}}                      %微分符号
+
+
+
+
+\usepackage{amsmath}
+\usepackage{cases}
+\headsep 0.5 true cm \topmargin 0pt \oddsidemargin 0pt
+\evensidemargin 0pt \textheight 225mm \textwidth 165mm
+\usepackage{pifont}
+\usepackage{mathrsfs}
+\usepackage{slashbox}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage{fancyhdr}
+
+\usepackage{color}
+\usepackage{picins}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\usepackage{epsfig,longtable}
+\usepackage[tight,hang]{subfigure}
+\usepackage{graphics}
+\usepackage{bbding}
+
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+
+\title{模板虚拟同步机原理}
+\author{王柯}
+%\date{}                       %去除maketitle的自动时间标志
+
+
+\begin{document}
+
+%\twocolumn                  %页面分栏
+%\setlength\columnsep{20pt}
+%\balance                    %左右两栏页面均衡
+
+
+\maketitle
+\begin{spacing}{1.5}        %1.5倍行间距
+
+
+%\begin{center}             %题目单独写
+%\textbf{\sanhao 题目}
+%\end{center}
+
+%\newpage                     %翻页
+
+
+
+
+\section{Modeling Synchronous Machines(by Qing-chang Zhong)}
+We consider a round rotor machine so that all stator inductance are constant. Our model assumes that there are no damper winding in the rotor, that there is one pair of poles per phase (and one pair of poles on the rotor), and that there are no magnetic-saturation effects in the iron core and eddy currents.As is well known, the damper winding help to suppress hunting and also help to bring the machine into synchronism with the grid.
+
+.The stator windings can be regarded as concentrated coils
+having self-inductance L and mutual inductance ?M (M>0 with a typical value 1/2L)The field (or rotor) winding can be regarded as a concentrated coil having self-inductance $L_f$ . The mutual inductance between the field coil and each of the three stator coils varies with the rotor angle $\theta$,
+\begin{equation}
+  \begin{split}
+    M_{af}=M_fcos(\Theta) \\
+    M_{bf}=M_fcos(\Theta-\frac{2\Pi}{3})  \\
+    M_{cf}=M_fcos(\Theta-\frac{4\Pi}{3})
+  \end{split}
+\end{equation}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{structure.jpg}
+  \caption{Structure of an idealized three-phase round-rotor SG}\label{f1}
+\end{figure}
+so
+\begin{equation}
+  \begin{split}
+    \Phi_a&=Li_a-Mi_b-Mi_c+M_{af}i_f \\
+    \Phi_b&=-Mi_a+Li_b-Mi_c+M_{bf}i_f  \\
+    \Phi_c&=-Mi_a-Mi_b+Li_c+M_{bf}i_f  \\
+    \Phi_f&=M_{af}i_a+M_{bf}i_b+M_{cf}i_c+L_{f}i_{f}
+  \end{split}
+\end{equation}
+Denote
+\begin{equation*}
+\Phi=\left[
+\begin{matrix}
+\Phi_a\\
+\Phi_b\\
+\Phi_c\\
+\end{matrix}
+\right] \ \ \ \ \ \ \ \ \ \
+i=\left[\begin{matrix}
+i_a\\
+i_b\\
+i_c\\
+\end{matrix}\right]  \ \ \ \ \ \ \ \ \ \
+\tilde{cos(\Theta)}=\left[\begin{matrix}
+cos(\theta)\\
+cos(\theta-\frac{2\Pi}{3})  \\
+cos(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]  \ \ \ \ \ \ \ \ \ \
+\tilde{sin(\Theta)}=\left[\begin{matrix}
+sin(\theta)\\
+sin(\theta-\frac{2\Pi}{3})  \\
+sin(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]  \ \ \ \ \ \ \ \ \ \
+\end{equation*}
+And for the moment that the neutral line is not connected,
+$i_a+i_b+i_c=0$
+so
+\begin{equation}
+  \begin{split}
+\Phi=\left[\begin{matrix}
+L&-M&-M\\
+-M&L&-M\\
+-M&-M&L\\
+\end{matrix}\right]i+
+\left[\begin{matrix}
+M_{af}\\
+M_{bf}\\
+M_{cf}\\
+\end{matrix}\right]i_f
+=\left[\begin{matrix}
+L&-M&-M\\
+-M&L&-M\\
+-M&-M&L\\
+\end{matrix}\right]i+M_fi_f
+\left[\begin{matrix}
+cos(\theta)\\
+cos(\theta-\frac{2\Pi}{3})  \\
+cos(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]
+  \end{split}
+\end{equation}
+\begin{equation}
+  \begin{split}
+    \Phi_f=L_fi_f+M_f
+\left[\begin{matrix}
+i_a&i_b&i_c\\
+\end{matrix}\right]
+\left[\begin{matrix}
+cos(\theta)\\
+cos(\theta-\frac{2\Pi}{3})  \\
+cos(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]
+  \end{split}
+\end{equation}
+The terminal voltage
+\begin{equation}
+\begin{split}
+v=-R_si-\frac{\ud \phi}{\ud t}=
+-R_si-\left[\begin{matrix}
+L&-M&-M\\
+-M&L&-M\\
+-M&-M&L\\
+\end{matrix}\right]\frac{\ud i}{\ud t}+M_fi_f\omega
+\left[\begin{matrix}
+sin(\theta)\\
+sin(\theta-\frac{2\Pi}{3})  \\
+sin(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]
+-M_f\frac{\ud i_f}{\ud t}
+\left[\begin{matrix}
+cos(\theta)\\
+cos(\theta-\frac{2\Pi}{3})  \\
+cos(\Theta-\frac{4\Pi}{3})\\
+\end{matrix}\right]
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+v_f=-R_fi_f-\frac{\ud \Phi_f}{\ud t}
+  \end{split}
+\end{equation}
+
+
+
+
+
+
+
+
+\end{spacing}
+\end{document}
